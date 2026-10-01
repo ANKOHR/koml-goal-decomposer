@@ -1,0 +1,5 @@
+KOML Goal Decomposer build complete
+Test count: 31 passed (python -m pytest -q).
+Local implementation commit: 8593c416f495520d8c743a381099298213417be5
+
+Built a deterministic offline Python kgd CLI that validates explicit goal trees, recursively classifies atomic, blocked and decomposed work, generates 200 labelled synthetic roots with independent hand-computed expectations, and renders Markdown or JSON reports with provenance and source hashes. The measured installed CLI demo completed in 0.593705 seconds and the standalone report in 0.177547 seconds. Exact planted task identities and counts match, adversarial and failure cases are tested, and documentation records the honesty boundary, lessons and pending two-week real-use verdict. No publication was performed. This file is committed in a subsequent build-record commit to avoid a self-referential commit hash.
